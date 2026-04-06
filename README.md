@@ -36,7 +36,7 @@ graph TD
     B -- Yes --> C[Add to Output/Postfix]
     B -- No --> D{Is it an Operator?}
     D -- "(" --> E[Push to Stack]
-    D -- ")" --> F[Pop till '(']
+    D -- ")" --> F["Pop till '('"]
     D -- "+, -, *, /" --> G{Check Precedence}
     G -- Higher --> H[Push to Stack]
     G -- Lower/Equal --> I[Pop Stack to Output & Push New]
