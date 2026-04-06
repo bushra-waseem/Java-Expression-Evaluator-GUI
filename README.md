@@ -30,6 +30,24 @@ This project is a practical implementation of two major Stack algorithms:
 
 ---
 
+```mermaid
+graph TD
+    A[Input Expression] --> B{Is it an Operand?}
+    B -- Yes --> C[Add to Output/Postfix]
+    B -- No --> D{Is it an Operator?}
+    D -- "(" --> E[Push to Stack]
+    D -- ")" --> F[Pop till '(']
+    D -- "+, -, *, /" --> G{Check Precedence}
+    G -- Higher --> H[Push to Stack]
+    G -- Lower/Equal --> I[Pop Stack to Output & Push New]
+    C --> J[End of Expression?]
+    F --> J
+    H --> J
+    I --> J
+    J -- Yes --> K[Pop Remaining Stack to Output]
+    K --> L[Final Postfix Result]
+```
+
 ## ✨ Features
 * **Modern Dark UI:** Clean aesthetic for a professional look.
 * **Error Validation:** Detects and reports invalid mathematical expressions.
@@ -38,5 +56,17 @@ This project is a practical implementation of two major Stack algorithms:
 
 ## 🛠️ Technical Stack
 * **Language:** Java
-* **UI Framework:** Swing / AWT
-* **Data Structure:** `java.util.Stack`
+* **UI Framework:** Java Swing / AWT (GUI)
+* **Data Structure:** Stack (Last-In-First-Out logic)
+
+### ⚙️ How to Setup & Run
+1.  **Clone the Repo:**
+    ```bash
+    git clone [https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git](https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git)
+    ```
+2.  **Open in IDE:** Import the project into **IntelliJ IDEA**, **Eclipse**, or **NetBeans**.
+3.  **Compile & Run:** Run the main Java file to launch the GUI window.
+
+---
+### 🤝 Connect with Me
+* **LinkedIn:** [Bushra Waseem](APNA_LINKEDIN_URL_YAHAN_DALAIN)
