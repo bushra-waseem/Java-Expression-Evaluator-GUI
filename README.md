@@ -68,4 +68,4 @@ graph TD
 ```
 
 ### 🤝 Connect with Me
-* **LinkedIn:** [Bushra Waseem](APNA_LINKEDIN_URL_YAHAN_DALAIN)
+* **LinkedIn:** [Bushra Waseem](https://www.linkedin.com/in/ bushraa-waseem)
