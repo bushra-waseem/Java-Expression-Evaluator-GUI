@@ -8,11 +8,15 @@ A professional Java desktop application that evaluates mathematical expressions.
 
 ### 1. Complex Expression Handling
 The application correctly handles parentheses and multiple operators, showing the step-by-step conversion.
-![Main Interface 01](Screenshots/01%20main%20interface.png)
+<p align="center">
+  <img src="Screenshots/01%20main%20interface.png" width="450" alt="Main Interface 01">
+</p>
 
 ### 2. Multi-digit & Operator Precedence
 Demonstrating the system's ability to prioritize operations like multiplication and division over addition.
-![Main Interface 02](Screenshots/02%20main%20interface.png)
+<p align="center">
+  <img src="Screenshots/02%20main%20interface.png" width="450" alt="Main Interface View">
+</p>
 
 ---
 
