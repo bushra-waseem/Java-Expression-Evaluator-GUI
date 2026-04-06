@@ -63,7 +63,7 @@ graph TD
 
 1. **Clone the Repo:**
    ```bash
- git clone [https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git](https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git)
+ git clone https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git
  Import the project into IntelliJ IDEA, Eclipse, or NetBeans.
  Run the main Java file to launch the GUI window.
 ```
