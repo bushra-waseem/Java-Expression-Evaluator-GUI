@@ -59,13 +59,16 @@ graph TD
 * **UI Framework:** Java Swing / AWT (GUI)
 * **Data Structure:** Stack (Last-In-First-Out logic)
 
-### ⚙️ How to Setup & Run
 
-```bash
- git clone [https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git](https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git)
- Import the project into IntelliJ IDEA, Eclipse, or NetBeans.
- Run the main Java file to launch the GUI window.
-```
+### ⚙️ How to Setup & Run
+1.  **Clone the Repo:**
+    ```bash
+    git clone [https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git](https://github.com/bushra-waseem/Java-Expression-Evaluator-GUI.git)
+    ```
+2.  **Open in IDE:** Import the project into **IntelliJ IDEA**, **Eclipse**, or **NetBeans**.
+3.  **Compile & Run:** Run the main Java file to launch the GUI window.
+
+---
 
 ### 🤝 Connect with Me
 * **LinkedIn:** [Bushra Waseem](https://www.linkedin.com/in/ bushraa-waseem)
